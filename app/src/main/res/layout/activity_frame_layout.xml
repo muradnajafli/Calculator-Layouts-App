@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_gravity="top"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="8dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="200dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="7"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="103.33dp"
+        android:layout_marginTop="200dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="8"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="206.66dp"
+        android:layout_marginTop="200dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="9"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonPlus"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="309.99dp"
+        android:layout_marginTop="200dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="+"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="300dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="4"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="103.33dp"
+        android:layout_marginTop="300dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="5"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="206.66dp"
+        android:layout_marginTop="300dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="6"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="309.99dp"
+        android:layout_marginTop="300dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="-"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/button1"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="400dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="103.33dp"
+        android:layout_marginTop="400dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="2"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="206.66dp"
+        android:layout_marginTop="400dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="3"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonMultiply"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="309.99dp"
+        android:layout_marginTop="400dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="*"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+
+
+</FrameLayout>
