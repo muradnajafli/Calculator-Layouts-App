@@ -10,98 +10,108 @@
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
         android:layout_marginBottom="8dp"
-        tools:ignore="SpeakableTextPresentCheck"
-        />
+        android:layout_weight="2"
+        android:textSize="24sp"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button7"
             style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:text="7"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:text="7" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/button8"
             style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:text="8"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:text="8" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/button9"
             style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight= "1"
             android:background="?android:attr/selectableItemBackground"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:text="9"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:text="9" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/buttonPlus"
             style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:text="+"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:text="+" />
+            android:textSize="24sp" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button4"
             style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:text="4"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:text="4" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/button5"
             style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:text="5"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:text="5" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/button6"
             style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:text="6"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:text="6" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/buttonMinus"
             style="@style/Widget.AppCompat.Button"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
             android:text="-"
             android:textColor="#000000"
@@ -109,15 +119,17 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button1"
             style="@style/Widget.AppCompat.Button"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
             android:text="1"
             android:textColor="#000000"
@@ -126,28 +138,31 @@
         <Button
             android:id="@+id/button2"
             style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:text="2"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:text="2" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/button3"
             style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:text="3"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:text="3" />
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/buttonMultiply"
             style="@style/Widget.AppCompat.Button"
-            android:layout_width="103.3dp"
-            android:layout_height="200dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
             android:text="*"
             android:textColor="#000000"

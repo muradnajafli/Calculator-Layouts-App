@@ -3,7 +3,6 @@ package com.example.calculator_layout_app
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.calculator_layout_app.databinding.ActivityConstraintLayoutBinding
-import com.example.calculator_layout_app.databinding.ActivityFrameLayoutBinding
 
 class ConstraintLayoutActivity : AppCompatActivity() {
     private lateinit var binding: ActivityConstraintLayoutBinding
@@ -13,7 +12,7 @@ class ConstraintLayoutActivity : AppCompatActivity() {
         binding = ActivityConstraintLayoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val displayEditText = binding.editText
+        val displayEditText = binding.editTextNumber
 
         val digitButtons = listOf(
             binding.button1, binding.button2, binding.button3, binding.button4,
